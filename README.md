@@ -1,71 +1,130 @@
-<h1><b>🔥 PyTorch Projects 🐍</b></h1>
-<a href="https://www.python.org" target="_blank">
-  <img src="https://img.shields.io/badge/Python-52BE80">
-</a>
-<a href="https://pypi.org/project/torch/" target="_blank">
-  <img src="https://img.shields.io/badge/PyTorch-5DADE2">
-</a>
-<br><br>
+<h1 align="center"><b>🔥 PyTorch Projects 🐍</b></h1>
 
-<img src="https://i.pinimg.com/736x/a5/d7/8b/a5d78b24b09508c97ee61e3e9e39ebbf.jpg" width="40%">
-
-<p>
-  🌸 En esta carpeta encontrarás programas y ejemplos prácticos con PyTorch, una de las librerías más potentes para el desarrollo de Inteligencia Artificial y Deep Learning. 🤖✨
-  Con estos proyectos podrás experimentar con redes neuronales, NLP y mucho más, aprendiendo de manera práctica cómo funcionan los modelos modernos de IA. 🚀
+<p align="center">
+  <a href="https://www.python.org" target="_blank">
+    <img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white">
+  </a>
+  <a href="https://pypi.org/project/torch/" target="_blank">
+    <img src="https://img.shields.io/badge/PyTorch-DeepLearning-EE4C2C?logo=pytorch&logoColor=white">
+  </a>
+  <img src="https://img.shields.io/badge/Status-Active-success">
 </p>
 
-## Índice de Contenidos 🧾
+<p align="center">
+  <img src="https://i.pinimg.com/736x/a5/d7/8b/a5d78b24b09508c97ee61e3e9e39ebbf.jpg" width="40%">
+</p>
 
-- Descripción 📝
-- Instalación 🛠️
-- Uso 📘
-- Licencia📜
+---
 
-## Instalación 🖥️
+## 🌸 About This Repository
 
-1. Clona el repositorio:
+Welcome to my **PyTorch Projects** collection! 🤖✨  
 
-    ```
-    git clone https://github.com/Bredalis/PyTorch.git
-    ```
+In this repository, you'll find practical programs and experiments built with **PyTorch**, one of the most powerful libraries for Artificial Intelligence and Deep Learning.
 
-2. Instala las dependencias necesarias:
+Here you’ll explore:
 
-	```
-	pip install torch torchvision torchaudio
-	```    
+- 🧠 Neural Networks (MLP)
+- 🔥 Training & Validation loops
+- 📊 Dataset handling (MNIST)
+- 🚀 Model inference
+- 📦 Device management (CPU / GPU)
+- 🧪 Practical AI experimentation
 
-## Uso ⚙️
+This project is designed for **hands-on learning**, understanding how modern AI models work from scratch.
 
-Para ejecutar un programa, simplemente navega al directorio del programa y ejecuta el archivo Python correspondiente. Por ejemplo:
+---
 
-1. Ubicate en la ruta del programa:
+## 🧾 Table of Contents
 
-     ```
-    cd ruta-del-programa
-    ```
-     
-2. Ejecuta el programa:
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [License](#-license)
 
-    ```
-    python nombre-del-programa.py
-    ```
-<br>
+---
 
-## Licencia 📜
+## 🖥️ Installation
 
-Este proyecto está licenciado bajo la Licencia 📜 <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPLv3 (GNU General Public License V3.0)</a>.
+### 1️⃣ Clone the repository
 
-<br>
+```bash
+git clone https://github.com/Bredalis/PyTorch.git
+cd PyTorch
+````
 
-## <img src="https://avatars.githubusercontent.com/u/111624948?s=400&u=cd081f79392220d8cd2a22f2a8d5d3b18814350a&v=4" width="50" height="50"> <img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&color=%23FFFFFF&size=35&center=true&vCenter=true&width=450&duration=1500&pause=1000&lines=Hola,+soy;Bredalis+Gautreaux!" width="auto" height="35"/>
-[![Github](https://img.shields.io/github/followers/Bredalis?label=Follow&style=social)](https://github.com/Bredalis)
-![GitHub Followers](https://img.shields.io/github/stars/bredalis?style=social)
-<a href="https://www.linkedin.com/in/bredalis-gautreaux/" target="_blank">
-  <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white">
-</a>
+### 2️⃣ Install dependencies
 
-😊 Soy una programadora con 3 años en este sector, me encanta crear y aprender constantemente. ¡Amo lo que hago! #nlp #ia 😊
+```bash
+pip install torch torchvision torchaudio matplotlib
+```
 
-## Mira mi perfil de GitHub:
-[![Web](https://img.shields.io/badge/GitHub-Bredalis-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/bredalis)
+---
+
+## ⚙️ Usage
+
+Navigate to the directory of the project you want to run:
+
+```bash
+cd project-folder
+python file_name.py
+```
+
+Example:
+
+```bash
+python train_and_validate.py
+```
+
+---
+
+## 📂 Project Structure (Example)
+
+```
+PyTorch/
+│
+├── mnist_dataset_exploration.py
+├── neural_network_model.py
+├── train_and_validate.py
+├── inference_visualization.py
+├── tensor_device_demo.py
+└── ...
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the
+**GNU General Public License v3.0 (GPLv3)**
+
+More information here:
+[https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+---
+
+## 👩‍💻 About Me
+
+<p align="left">
+  <img src="https://avatars.githubusercontent.com/u/111624948?s=400" width="70" style="border-radius:50%">
+</p>
+
+Hi, I'm **Bredalis Gautreaux** 😊
+
+💻 Programmer with 3+ years of experience
+🤖 Passionate about AI, NLP, and Deep Learning
+🌱 Always learning and building new things
+❤️ I truly love what I do
+
+---
+
+### 🌐 Connect with me
+
+[![Github](https://img.shields.io/github/followers/Bredalis?label=Follow\&style=social)](https://github.com/Bredalis)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square\&logo=Linkedin\&logoColor=white)](https://www.linkedin.com/in/bredalis-gautreaux/)
+
+---
+
+## ⭐ Support
+
+If you like this repository, consider giving it a ⭐ on GitHub!
